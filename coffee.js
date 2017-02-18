@@ -11,5 +11,4 @@ function febInCoffee() {
 }
 
 setTimeout(function () {janInCoffee()}, 3000)
-
-setTimeout(function () {febInCoffee()}, 4000)
+setTimeout(function () {febInCoffee()}, 5000)
