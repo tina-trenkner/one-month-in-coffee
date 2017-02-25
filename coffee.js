@@ -10,8 +10,15 @@ function febInCoffee() {
   document.getElementById("february").innerHTML = febCoffee;
 }
 
+// function marInCoffee() {
+//  const mar = document.getElementById("march").innerHTML;
+//  const febCoffee = feb.replace("", "");
+//  document.getElementById("march").innerHTML = marchCoffee;
+// }
+
 setTimeout(function () {janInCoffee()}, 3000)
 setTimeout(function () {febInCoffee()}, 5000)
+setTimeout(function () {marchInCoffee()}, 7000)
 
 //onLoad then execute function that takes a letter, hides it, then changes it
 //or use string.replace() somehow
