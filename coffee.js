@@ -6,7 +6,7 @@ function janInCoffee() {
 
 function febInCoffee() {
   const feb = document.getElementById("february").innerHTML;
-  const febCoffee = feb.replace("_____ _____ _____ ___", "_!!!_ !!!_@ _!!!_ __!");
+  const febCoffee = feb.replace("_____ _____ _____ _____", "_!!!_ !!!_@ _!!!_ __!!_");
   document.getElementById("february").innerHTML = febCoffee;
 }
 
