@@ -10,11 +10,11 @@ function febInCoffee() {
   document.getElementById("february").innerHTML = febCoffee;
 }
 
-// function marInCoffee() {
-//  const mar = document.getElementById("march").innerHTML;
-//  const febCoffee = feb.replace("", "");
-//  document.getElementById("march").innerHTML = marchCoffee;
-// }
+function marInCoffee() {
+ const mar = document.getElementById("march").innerHTML;
+ const marCoffee = mar.replace("_", "_");
+ document.getElementById("march").innerHTML = marchCoffee;
+}
 
 setTimeout(function () {janInCoffee()}, 3000)
 setTimeout(function () {febInCoffee()}, 5000)
