@@ -22,3 +22,4 @@ setTimeout(function () {marchInCoffee()}, 7000)
 
 //onLoad then execute function that takes a letter, hides it, then changes it
 //or use string.replace() somehow
+//or put each day in a span and change what's in the span tags
