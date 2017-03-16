@@ -12,7 +12,7 @@ function febInCoffee() {
 
 function marInCoffee() {
  const mar = document.getElementById("march").innerHTML;
- const marCoffee = mar.replace("_____ ____", "_!!!! _!!_");
+ const marCoffee = mar.replace("_____ ____", "_!!!! _!!__ __!_");
  document.getElementById("march").innerHTML = marchCoffee;
 }
 
