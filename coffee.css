@@ -2,3 +2,12 @@ footer {
   color: #808080;
   font-size: 0.8em;
 }
+
+.note {
+  color: #FFFFFF;
+  font-size: 0.8em;
+}
+
+.note:hover {
+  color: #808080;
+}
