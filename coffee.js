@@ -18,17 +18,25 @@ function marInCoffee() {
 
 function aprInCoffee() {
  const apr = document.getElementById("april").innerHTML;
- const aprCoffee = apr.replace("_____ _____ _____ __", "!_!__ @____ __!!! __");
+ const aprCoffee = apr.replace("_____ _____ _____ _____", "!_!__ @____ __!!! __!!!");
  document.getElementById("april").innerHTML = aprCoffee;
+}
+
+function mayInCoffee() {
+ const may = document.getElementById("may").innerHTML;
+ const mayCoffee = may.replace("_____ _____ _____" , "*_!_! !!!__ !!__!");
+ document.getElementById("may").innerHTML = mayCoffee;
 }
 
 setTimeout(function () {janInCoffee()}, 3000)
 setTimeout(function () {febInCoffee()}, 5000)
 setTimeout(function () {marInCoffee()}, 7000)
 setTimeout(function () {aprInCoffee()}, 9000)
+setTimeout(function () {mayInCoffee()}, 11000)
 
 //onLoad then execute function that takes a letter, hides it, then changes it
 //or use string.replace() somehow
 
-//Could likely refactor by putting the strings into an array and running a loop. Haven't quite thought this through, but the functions are clearly formulaic.
-//or put each day in a span and change what's in the span tags
+//Could likely refactor by putting the strings into an array and running a loop. Pretty sure this needs to be in a loop.
+
+//In order to work on each individual character, will be looking into integratign blast.js
