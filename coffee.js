@@ -24,7 +24,7 @@ function aprInCoffee() {
 
 function mayInCoffee() {
  const may = document.getElementById("may").innerHTML;
- const mayCoffee = may.replace("_____ _____ _____" , "*_!_! !!!__ !!__!");
+ const mayCoffee = may.replace("_____ _____ _____" , "*_!_! !!!__ !!__! !!_!!");
  document.getElementById("may").innerHTML = mayCoffee;
 }
 
