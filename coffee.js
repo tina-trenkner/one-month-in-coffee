@@ -24,8 +24,20 @@ function aprInCoffee() {
 
 function mayInCoffee() {
  const may = document.getElementById("may").innerHTML;
- const mayCoffee = may.replace("_____ _____ _____" , "*_!_! !!!__ !!__! !!_!!");
+ const mayCoffee = may.replace("_____ _____ _____ _____" , "*_!_! !!!__ !!__! !!_!! !!!!!");
  document.getElementById("may").innerHTML = mayCoffee;
+}
+
+function junInCoffee() {
+ const jun = document.getElementById("june").innerHTML;
+ const junCoffee = jun.replace("_____ _____ _____ _____" , "!!_!! _@@!! __!!_ ___!_");
+ document.getElementById("june").innerHTML = junCoffee;
+}
+
+function julInCoffee() {
+ const may = document.getElementById("july").innerHTML;
+ const julCoffee = jul.replace("_____" , "_!!__");
+ document.getElementById("july").innerHTML = julCoffee;
 }
 
 setTimeout(function () {janInCoffee()}, 3000)
@@ -33,6 +45,8 @@ setTimeout(function () {febInCoffee()}, 5000)
 setTimeout(function () {marInCoffee()}, 7000)
 setTimeout(function () {aprInCoffee()}, 9000)
 setTimeout(function () {mayInCoffee()}, 11000)
+setTimeout(function () {junInCoffee()}, 13000)
+setTimeout(function () {julInCoffee()}, 15000)
 
 //onLoad then execute function that takes a letter, hides it, then changes it
 //or use string.replace() somehow
