@@ -30,13 +30,13 @@ function mayInCoffee() {
 
 function junInCoffee() {
  const jun = document.getElementById("june").innerHTML;
- const junCoffee = jun.replace("_____ _____ _____" , "*_!_! !!!__ !!__! !!_!!");
+ const junCoffee = jun.replace("_____ _____ _____ _____" , "!!_!! _@@!! __!!_ ___!_");
  document.getElementById("june").innerHTML = junCoffee;
 }
 
 function julInCoffee() {
  const may = document.getElementById("july").innerHTML;
- const julCoffee = jul.replace("_____ _____ _____" , "*_!_! !!!__ !!__! !!_!!");
+ const julCoffee = jul.replace("_____" , "_!!__");
  document.getElementById("july").innerHTML = julCoffee;
 }
 
