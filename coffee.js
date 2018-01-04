@@ -35,7 +35,7 @@ function junInCoffee() {
 }
 
 function julInCoffee() {
- const may = document.getElementById("july").innerHTML;
+ const jul = document.getElementById("july").innerHTML;
  const julCoffee = jul.replace("_____" , "_!!__");
  document.getElementById("july").innerHTML = julCoffee;
 }
