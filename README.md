@@ -8,8 +8,6 @@ Originally: This was supposed to be visual representation of how often I bought 
 
 Skeleton is used for a quick grid system. jQuery is used because it is useful and practical, even though I had hoped to animate with vanillaJS. This viz was a lesson in using things that work. 
 
-There's lots I could still do with this animation:
--There's a lot of code that violates DRY. So the opportunities for refactoring are grand. There needs to be more loops. My goal, at least in January 2018, is to get a month of data animated.
--There's likely a way to trigger the animations based on if that day had one, two or three coffee purchases. 
+My goal, at least in January 2018, is to get a month of data animated. There's a lot of code that violates DRY, so the opportunities for refactoring are grand. There needs to be more loops. There's likely a way to trigger the animations based on if that day had one, two or three coffee purchases. 
 
 Friendly feedback warmly welcomed. tinatrenkner at gmail dot com. 
