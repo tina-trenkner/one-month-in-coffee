@@ -1,4 +1,5 @@
 $(document).ready(function(){
+<<<<<<< HEAD
   oct30();
   setTimeout(oct31, 2500);
   setTimeout(nov1, 3000);
@@ -320,4 +321,19 @@ function showNov30Coffee() {
   const twoCoffee = two.replace("_", "@");
   document.getElementById("nov30").innerHTML  = twoCoffee;
   $("#nov30").show()
+=======
+  $("#one").hide(500);
+  $("#one").show(500);
+  $("#one").hide(500);
+  $("#one").show(500);
+  $("#one").hide(1000, showCoffee);
+
+})
+
+function showCoffee() {
+   var monday = document.getElementById("one").innerHTML;
+  const mondayCoffee = monday.replace("_", "!");
+  document.getElementById("one").innerHTML = mondayCoffee;
+  $("#one").show()
+>>>>>>> 66dbdee66fee59cf72aeeed423208520c3bcc455
 }

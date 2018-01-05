@@ -55,6 +55,7 @@ setTimeout(function () {julInCoffee()}, 15000)
 
 //In order to work on each individual character, will be looking into integratign blast.js
 
+
 // At index in string:
 -fadeout()
 -replace index with new character
